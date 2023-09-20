@@ -15,9 +15,6 @@
 # Example:
 # To use this script, open a terminal and navigate to the directory where the script is located. Then, run the script using the following command:
 #     python extract_rpa_files.py
-#
-# Author: [Your Name]
-# Date: [Current Date]
 
 import os
 import subprocess
