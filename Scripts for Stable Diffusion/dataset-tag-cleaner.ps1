@@ -1,4 +1,8 @@
-# This script is for Stable Diffusion LoRA Training Datasets. Its task is to sift through bulk caption data and remove unwanted tags.
+# This script prompts the user to specify a folder path containing txt files and a list of tags to be removed from these files. 
+# It then retrieves all txt files from the specified folder and removes the unwanted tags from each file. 
+# Finally, it saves the modified content back to the respective files and displays a message indicating the successful removal of tags. 
+# To use this script, run it and follow the prompts to input the necessary information.
+
 # Ask for the path of the folder containing the txt files
 $FolderPath = Read-Host -Prompt 'Please provide the path of the folder'
 
