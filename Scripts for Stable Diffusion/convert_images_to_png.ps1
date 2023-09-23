@@ -16,24 +16,33 @@
 
 from PIL import Image
 import os
+import subprocess
 
-def convert_webp_to_png(path):
+def convert_to_png(path):
+    # List of image formats to convert
+    image_formats = [".webp", ".jpg", ".jpeg", ".bmp", ".tiff"]
+    avif_format = ".avif"
+    
     for root, dirs, files in os.walk(path):
         for file in files:
-            if file.endswith(".webp"):
-                webp_path = os.path.join(root, file)
-                png_path = webp_path.replace(".webp", ".png")
-                
-                with Image.open(webp_path) as img:
+            original_path = os.path.join(root, file)
+            png_path = os.path.splitext(original_path)[0] + ".png"
+            
+            # Check if the file extension is in the list of image formats
+            if any(file.endswith(format) for format in image_formats):
+                with Image.open(original_path) as img:
                     img.save(png_path, "PNG")
-                
-                # Delete the original .webp file after conversion
-                os.remove(webp_path)
+                os.remove(original_path)
+            elif file.endswith(avif_format):
+                # Use FFmpeg to convert AVIF files
+                subprocess.run(["ffmpeg", "-i", original_path, png_path])
+                os.remove(original_path)
 
 if __name__ == "__main__":
     path = input("Please enter the path to the folder: ")
     if os.path.exists(path):
-        convert_webp_to_png(path)
+        convert_to_png(path)
         print("Conversion completed.")
     else:
         print("Invalid path. Please try again.")
+
