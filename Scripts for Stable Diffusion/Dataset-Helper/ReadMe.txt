@@ -10,38 +10,41 @@ Dataset Helper is a user-friendly tool designed to assist in managing and organi
 
 ### Tag Removal
 
-- **Folder Path**: Specify the path to the folder containing your dataset files.
-- **Tags to Remove**: Enter the tags you want to remove, separated by commas.
-- Click "Check Tags" to view and copy existing tags and their counts.
-- Remove specified tags from the dataset files.
+The "Tag Removal" function allows you to remove specific tags from text files within a selected folder. 
+
+Here's how to use it:
+Click on the "Tag Removal" tab in the GUI.
+Enter the folder path containing the text files you want to process.
+Enter the tags you want to remove, separated by commas (e.g., tag1,tag2).
+Click the "Browse" button to select the folder interactively or manually enter the folder path.
+Click the "Check Tags" button to view the existing tags and their counts in the selected folder. This step is optional.
+Click the "Remove Tags" button to perform the tag removal. The tool will update you with the total number of tags removed.
 
 ### Folder Creation
 
-- **Base Directory**: Define the base directory for your project.
-- **Project Name**: Enter the name of your project.
-- Create folders such as "dataset," "output," and "output/sample" for organizing your project files.
+The "Folder Creation" function allows you to create a predefined folder structure within a specified base directory. It generates the following folders:
+Dataset: Contains images and tagging files.
+Output: Contains LoRA files and sample images (if configured).
+
+Here's how to use it:
+Click on the "Folder Creation" tab in the GUI.
+Enter the base directory where you want to create the folders.
+Enter the project name.
+Click the "Create Folders" button to generate the folder structure within the specified base directory.
 
 ### Image Conversion
 
-- **Folder Path**: Specify the path to the folder containing images.
-- Convert images with formats like WebP, JPEG, BMP, and TIFF to PNG format.
-- Use FFmpeg to convert AVIF images to PNG format.
+The "Image Conversion" function converts various image formats to PNG format. 
 
-## How to Use
-
-1. Download and install the Dataset Helper from the [GitHub repository](https://github.com/AsaTyr2018/script-snippets).
-2. Launch the application.
-3. Choose a tab based on the desired functionality (Tag Removal, Folder Creation, or Image Conversion).
-4. Follow the on-screen instructions to perform the tasks.
+Here's how to use it:
+Click on the "Image Conversion" tab in the GUI.
+Enter the folder path containing the images you want to convert.
+Click the "Convert Images to PNG" button to start the conversion process. The tool will convert compatible image formats within the specified folder.
 
 ## System Requirements
 
 - Python 3.x
 - Additional libraries as specified in the repository
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Acknowledgments
 
