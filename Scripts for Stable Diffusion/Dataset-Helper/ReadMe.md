@@ -1,10 +1,11 @@
 # Dataset Helper by Lenz-Service Network
 
-## Overview
+## Overview:
 
-Dataset Helper is a user-friendly tool designed to assist in managing and organizing datasets for various projects. It provides a graphical user interface (GUI) with multiple functions to streamline common dataset-related tasks. This project also utilizes Seait, a Super Easy AI Installer Tool.
+The Dataset Helper is a versatile tool designed to assist with various dataset management tasks. It provides a graphical user interface (GUI) with multiple functions for tasks like tag removal, folder creation, and image conversion. This README provides an overview of how to use the tool and its sub-functions.
 
-- Git Link: [Dataset Helper Git](https://github.com/AsaTyr2018/script-snippets)
+**Simplify Your AI Journey with Seait:**
+Are you interested in exploring AI repositories effortlessly? Introducing Seait (**Super Easy AI Installer Tool**), a user-friendly application that simplifies the installation process of AI-related repositories for users. Seait is seamlessly integrated into the Dataset Helper, providing an easy-to-use solution for accessing and installing AI repositories with minimal technical hassle. Seait automatically handles the installation process, making it easier for users to access and use AI tools. Discover the power of Seait and unlock a world of AI possibilities. Visit the [Seait Git](https://github.com/diStyApps/seait) to learn more.
 
 ## Features
 
@@ -50,6 +51,3 @@ Click the "Convert Images to PNG" button to start the conversion process. The to
 
 - [Seait](https://github.com/diStyApps/seait) - Super Easy AI Installer Tool
 
----
-
-**Dataset Helper** is brought to you by [Lenz-Service Network](https://github.com/AsaTyr2018).
