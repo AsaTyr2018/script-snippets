@@ -42,6 +42,19 @@ Click on the "Image Conversion" tab in the GUI.
 Enter the folder path containing the images you want to convert.
 Click the "Convert Images to PNG" button to start the conversion process. The tool will convert compatible image formats within the specified folder.
 
+## Getting Started
+
+1. **Installation:** No installation is required. Just download the provided files and make sure you have Python installed.
+
+2. **Dependencies:** Ensure you have the required dependencies installed, including tkinter and Pillow. You can install them using pip:
+   ```
+   pip install tk
+   pip install Pillow
+
+3. Run the Program: Run the main.py file to launch the GUI.
+   ```
+   python main.py
+
 ## System Requirements
 
 - Python 3.x
