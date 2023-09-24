@@ -53,5 +53,3 @@ Click the "Convert Images to PNG" button to start the conversion process. The to
 ---
 
 **Dataset Helper** is brought to you by [Lenz-Service Network](https://github.com/AsaTyr2018).
-
-![Powered by Lenz-Service Network](https://example.com/lenz-service-network.png)
