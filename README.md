@@ -4,8 +4,6 @@ Just a few Scripts for Privat/Public Use
 
 # Current Projects
 
-# Current Projects
-
 | Project | GitHub Repository |
 | ------- | ----------------- |
 | Seait   | [GitHub Repository](https://github.com/diStyApps/seait) |
